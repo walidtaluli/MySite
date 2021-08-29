@@ -577,7 +577,8 @@
 @media screen and (max-width: 480px) {
   .pictures h1 {
     font-size: 1.5rem;
-    margin-top: 3rem
+    margin-top: 3rem;
+    padding: 20px 60px;
   }
   .pictures_card {
     height: 250;
