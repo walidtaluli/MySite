@@ -189,6 +189,12 @@
     }
   }
 
+  @media screen and (max-width: 480px) {
+    #navbar_logo {
+      padding-left: 15px;
+    }
+  }
+
   /*  Hero */
   .hero {
     background: #131313;
