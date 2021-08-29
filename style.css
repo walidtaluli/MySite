@@ -97,6 +97,9 @@
   }
 
   @media screen and (max-width: 960px) {
+    .navbar_logo {
+      padding-left: 25px;
+    }
     .navbar_container {
       display: flex;
       justify-content: space-between;
@@ -129,9 +132,7 @@
       font-size: 1.6rem;
     }
   
-    #navbar_logo {
-      padding-left: 25px;
-    }
+
   
     .navbar_toggle .bar {
       width: 25px;
