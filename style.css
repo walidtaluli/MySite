@@ -500,7 +500,7 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
 
   .socials {
     display: grid;
@@ -564,14 +564,21 @@
 }
 
 @media screen and (max-width: 1300px) {
-
+  .pictures h1 {
+    font-size: 2rem;
+    margin-top: 3rem
+  }
   .pictures_card {
     height: 500;
     width: 500;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
+  .pictures h1 {
+    font-size: 1.5rem;
+    margin-top: 3rem
+  }
   .pictures_card {
     height: 250;
     width: 250;
