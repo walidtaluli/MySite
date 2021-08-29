@@ -97,7 +97,7 @@
   }
 
   @media screen and (max-width: 960px) {
-    .navbar_logo {
+    #navbar_logo {
       padding-left: 25px;
     }
     .navbar_container {
@@ -367,7 +367,7 @@
   }
 
   .main_content h2 {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 
 }
@@ -384,11 +384,7 @@
     margin-top: 3rem;
   }
   .main_content h2 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
-  .main__btn {
-    padding: 12px 36px;
-    margin: 2.5rem 0;
-  }
 }
