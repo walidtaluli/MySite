@@ -574,7 +574,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .pictures h1 {
     font-size: 1.5rem;
     margin-top: 3rem
