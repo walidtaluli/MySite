@@ -547,7 +547,7 @@
   grid-template-rows: 1fr;
 }
 
-._card {
+.pictures_card {
   margin: 10px;
   height: 425px;
   width: 300px;
@@ -560,33 +560,6 @@
   transition: 0.3s ease-in;
 }
 
-.pictures_card:nth-child(2) {
-  background: #1fa2ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #a6ffcb,
-    #12d8fa,
-    #1fa2ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #a6ffcb,
-    #12d8fa,
-    #1fa2ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.pictures_card:nth-child(3) {
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
-}
-
-
 .pictures_card:hover {
   transform: scale(1.075);
   transition: 0.3s ease-in;
@@ -597,10 +570,20 @@
   .pictures_wrapper {
     grid-template-columns: 1fr 1fr;
   }
+
+  .pictures_card {
+    height: 480;
+    width: 360;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .pictures_wrapper {
     grid-template-columns: 1fr;
   }
+  .pictures_card {
+    height: 360;
+    width: 270;
+  }
+
 }
