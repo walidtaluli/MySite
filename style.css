@@ -582,8 +582,8 @@
     grid-template-columns: 1fr;
   }
   .pictures_card {
-    height: 360;
-    width: 270;
+    height: 250;
+    width: 187,5;
   }
 
 }
