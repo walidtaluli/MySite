@@ -547,7 +547,7 @@
   margin: 10px;
   height: 500px;
   width: 500px;
-  border-radius: 4px;
+  border-radius: 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -566,7 +566,8 @@
 @media screen and (max-width: 1300px) {
   .pictures h1 {
     font-size: 2rem;
-    margin-top: 3rem
+    margin-top: 3rem;
+    padding: 20px 60px;
   }
   .pictures_card {
     height: 500;
