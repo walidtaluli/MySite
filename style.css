@@ -582,6 +582,8 @@
   .pictures_card {
     height: 250;
     width: 250;
+    padding: 20px 60px;
+
   }
 
 }
