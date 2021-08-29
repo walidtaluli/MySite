@@ -424,7 +424,6 @@
   cursor: pointer;
   position: relative;
   transition: all 0.35s;
-  width: 80%;
   outline: none;
 }
 
@@ -440,7 +439,6 @@
   cursor: pointer;
   position: relative;
   transition: all 0.35s;
-  width: 80%;
   outline: none;
 }
 
@@ -456,7 +454,6 @@
   cursor: pointer;
   position: relative;
   transition: all 0.35s;
-  width: 80%;
   outline: none;
 }
 
@@ -471,7 +468,6 @@
   cursor: pointer;
   position: relative;
   transition: all 0.35s;
-  width: 80%;
   outline: none;
 
 }
@@ -561,7 +557,7 @@
 
 
 .pictures_card:hover {
-  transform: scale(1.075);
+  transform: scale(0.9);
   transition: 0.3s ease-in;
   cursor: pointer;
 }
