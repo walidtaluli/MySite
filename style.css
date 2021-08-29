@@ -569,19 +569,19 @@
     margin-top: 3rem
   }
   .pictures_card {
-    height: 500;
-    width: 500;
+    height: 450;
+    width: 450;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .pictures h1 {
     font-size: 1.5rem;
     margin-top: 3rem
   }
   .pictures_card {
-    height: 225;
-    width: 225;
+    height: 220;
+    width: 220;
   }
 
 }
