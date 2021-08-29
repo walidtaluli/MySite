@@ -563,14 +563,14 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1100px) {
   .pictures h1 {
     font-size: 2rem;
     margin-top: 3rem
   }
   .pictures_card {
-    height: 220;
-    width: 220;
+    height: 100;
+    width: 100;
   }
 }
 
@@ -580,8 +580,8 @@
     margin-top: 3rem
   }
   .pictures_card {
-    height: 220;
-    width: 220;
+    height: 100;
+    width: 100;
   }
 
 }
